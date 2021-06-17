@@ -15,6 +15,9 @@ enum Styles {
 extension Styles.Images {
     static let play: UIImage = UIImage(systemName: "play.fill")!
     static let info: UIImage = UIImage(systemName: "info")!
+    static let inputLine: UIImage = #imageLiteral(resourceName: "inputDefault")
+    static let inputErrorLine: UIImage = #imageLiteral(resourceName: "inputError")
+    static let person: UIImage = UIImage(systemName: "person.fill")!
 
 }
 

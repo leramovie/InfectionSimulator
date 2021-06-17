@@ -1,9 +1,12 @@
-/* 
-  Localizable.strings
-  InfectionSimulator
-
-  Created by Valery Shel on 16.06.2021.
-  
-*/
-
-"Welcome" = "Добро пожаловать";
+"appInfo" = "iOS-приложение, которое симулирует и визуализирует распространение инфекции в группе людей.";
+"game" = "Игра";
+"groupSizeTitle" = "Кол-во людей в моделируемой группе";
+"groupSizePlaceholder" = "100 к примеру";
+"infectionFactorTitle" = "Кол-во людей, которое может быть заражено одним человеком при контакте";
+"infectionFactorPlaceholder" = "3 к примеру";
+"info" = "Информация";
+"periodTitle" = "Период пересчёта количества заражённых людей";
+"periodPlaceholder" = "1 (секунда), к примеру";
+"simulate" = "Запустить моделирование";
+"userFormNavTitle" = "Сбор данных";
+"userFormHint" = "Заполни эти обязательные поля";

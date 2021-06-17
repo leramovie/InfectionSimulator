@@ -22,7 +22,6 @@ final class NavigationController: UINavigationController {
     ]
 
     func setupAppearance() {
-        self.navigationItem.backButtonTitle = ""
 
         let appearance = UINavigationBarAppearance()
         appearance.titleTextAttributes = titleTextAttributes

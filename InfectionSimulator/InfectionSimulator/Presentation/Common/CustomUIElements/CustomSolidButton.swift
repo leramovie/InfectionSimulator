@@ -23,8 +23,7 @@ final class AccentSolidButton: UIButton {
     override func layoutSubviews() {
         super.layoutSubviews()
         backgroundColor = isEnabled ? Styles.Colors.accent : Styles.Colors.buttonDefaultBackground
-        titleLabel?.textColor = isEnabled ? .white : Styles.Colors.title
-
+        isEnabled ? setTitleColor(.white, for: .normal) : setTitleColor(Styles.Colors.title, for: .normal)
     }
 
     func configure() {
@@ -32,5 +31,6 @@ final class AccentSolidButton: UIButton {
         layer.cornerCurve = .continuous
         titleLabel?.font = UIFont.bodySmall
         isExclusiveTouch = true
+        
     }
 }
