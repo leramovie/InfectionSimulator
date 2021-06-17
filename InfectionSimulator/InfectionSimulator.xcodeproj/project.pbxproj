@@ -15,8 +15,6 @@
 		F986D2382679DAA700A4D259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F986D2362679DAA700A4D259 /* LaunchScreen.storyboard */; };
 		F986D2452679DB6500A4D259 /* UserFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2432679DB6500A4D259 /* UserFormViewController.swift */; };
 		F986D2462679DB6500A4D259 /* UserFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F986D2442679DB6500A4D259 /* UserFormViewController.xib */; };
-		F986D2492679DB7700A4D259 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2472679DB7700A4D259 /* GameViewController.swift */; };
-		F986D24A2679DB7700A4D259 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F986D2482679DB7700A4D259 /* GameViewController.xib */; };
 		F986D24E2679DC4300A4D259 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D24D2679DC4300A4D259 /* NavigationController.swift */; };
 		F986D2512679DC9E00A4D259 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2502679DC9E00A4D259 /* RootTabBarController.swift */; };
 		F986D2552679DD1B00A4D259 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2532679DD1B00A4D259 /* InfoViewController.swift */; };
@@ -25,6 +23,8 @@
 		F986D2622679E37E00A4D259 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2612679E37E00A4D259 /* String+Extensions.swift */; };
 		F986D2642679E9E000A4D259 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2632679E9E000A4D259 /* UITextField+Extensions.swift */; };
 		F986D26F2679EA8E00A4D259 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D26E2679EA8E00A4D259 /* Style.swift */; };
+		F99A16B3267B33A800EE90EB /* GameUnitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A16B1267B33A800EE90EB /* GameUnitCollectionViewCell.swift */; };
+		F99A16B8267B719C00EE90EB /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A16B7267B719C00EE90EB /* UserDataService.swift */; };
 		F9D53ED6267A013900966A8B /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53ED5267A013900966A8B /* UIFont+Extensions.swift */; };
 		F9D53EDA267A05A100966A8B /* ErrorScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53ED8267A05A100966A8B /* ErrorScreenViewController.swift */; };
 		F9D53EDB267A05A100966A8B /* ErrorScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D53ED9267A05A100966A8B /* ErrorScreenViewController.xib */; };
@@ -32,6 +32,10 @@
 		F9D53EE1267A06F100966A8B /* CustomSolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53EE0267A06F100966A8B /* CustomSolidButton.swift */; };
 		F9D53EE3267A070C00966A8B /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53EE2267A070C00966A8B /* CustomTextFields.swift */; };
 		F9D53EE6267A078300966A8B /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53EE5267A078300966A8B /* UIConstants.swift */; };
+		F9D53EE8267A712400966A8B /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53EE7267A712400966A8B /* CustomLabel.swift */; };
+		F9D53EEA267A831000966A8B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53EE9267A831000966A8B /* UIView+Extensions.swift */; };
+		F9D53EEC267A935C00966A8B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D53EEB267A935C00966A8B /* UserData.swift */; };
+		F9D53EF3267B2C2600966A8B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F986D2472679DB7700A4D259 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +51,6 @@
 		F986D2432679DB6500A4D259 /* UserFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormViewController.swift; sourceTree = "<group>"; };
 		F986D2442679DB6500A4D259 /* UserFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserFormViewController.xib; sourceTree = "<group>"; };
 		F986D2472679DB7700A4D259 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		F986D2482679DB7700A4D259 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		F986D24D2679DC4300A4D259 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		F986D2502679DC9E00A4D259 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		F986D2532679DD1B00A4D259 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		F986D2612679E37E00A4D259 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		F986D2632679E9E000A4D259 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		F986D26E2679EA8E00A4D259 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		F99A16B1267B33A800EE90EB /* GameUnitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUnitCollectionViewCell.swift; sourceTree = "<group>"; };
+		F99A16B7267B719C00EE90EB /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		F9D53ED5267A013900966A8B /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		F9D53ED8267A05A100966A8B /* ErrorScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreenViewController.swift; sourceTree = "<group>"; };
 		F9D53ED9267A05A100966A8B /* ErrorScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorScreenViewController.xib; sourceTree = "<group>"; };
@@ -65,6 +70,9 @@
 		F9D53EE0267A06F100966A8B /* CustomSolidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSolidButton.swift; sourceTree = "<group>"; };
 		F9D53EE2267A070C00966A8B /* CustomTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
 		F9D53EE5267A078300966A8B /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		F9D53EE7267A712400966A8B /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		F9D53EE9267A831000966A8B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F9D53EEB267A935C00966A8B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		FF434341AA39B10E6AD73B31 /* Pods-InfectionSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfectionSimulator.release.xcconfig"; path = "Target Support Files/Pods-InfectionSimulator/Pods-InfectionSimulator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				F986D2472679DB7700A4D259 /* GameViewController.swift */,
-				F986D2482679DB7700A4D259 /* GameViewController.xib */,
+				F99A16B0267B338100EE90EB /* cell */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -198,6 +206,8 @@
 		F986D2572679DD4900A4D259 /* BusinessLogic */ = {
 			isa = PBXGroup;
 			children = (
+				F9D53EEB267A935C00966A8B /* UserData.swift */,
+				F99A16B7267B719C00EE90EB /* UserDataService.swift */,
 			);
 			path = BusinessLogic;
 			sourceTree = "<group>";
@@ -220,6 +230,7 @@
 				F986D2612679E37E00A4D259 /* String+Extensions.swift */,
 				F986D2632679E9E000A4D259 /* UITextField+Extensions.swift */,
 				F9D53ED5267A013900966A8B /* UIFont+Extensions.swift */,
+				F9D53EE9267A831000966A8B /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,6 +250,14 @@
 				F986D26E2679EA8E00A4D259 /* Style.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		F99A16B0267B338100EE90EB /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F99A16B1267B33A800EE90EB /* GameUnitCollectionViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		F9D53ED7267A052200966A8B /* ErrorScreen */ = {
@@ -263,6 +282,7 @@
 			children = (
 				F9D53EE0267A06F100966A8B /* CustomSolidButton.swift */,
 				F9D53EE2267A070C00966A8B /* CustomTextFields.swift */,
+				F9D53EE7267A712400966A8B /* CustomLabel.swift */,
 			);
 			path = CustomUIElements;
 			sourceTree = "<group>";
@@ -344,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D53EDB267A05A100966A8B /* ErrorScreenViewController.xib in Resources */,
-				F986D24A2679DB7700A4D259 /* GameViewController.xib in Resources */,
 				F986D25C2679E28200A4D259 /* Localizable.strings in Resources */,
 				F986D2382679DAA700A4D259 /* LaunchScreen.storyboard in Resources */,
 				F986D2462679DB6500A4D259 /* UserFormViewController.xib in Resources */,
@@ -405,16 +424,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F986D2492679DB7700A4D259 /* GameViewController.swift in Sources */,
 				F986D2642679E9E000A4D259 /* UITextField+Extensions.swift in Sources */,
 				F9D53EE6267A078300966A8B /* UIConstants.swift in Sources */,
 				F986D2622679E37E00A4D259 /* String+Extensions.swift in Sources */,
 				F986D2512679DC9E00A4D259 /* RootTabBarController.swift in Sources */,
 				F986D24E2679DC4300A4D259 /* NavigationController.swift in Sources */,
+				F9D53EEA267A831000966A8B /* UIView+Extensions.swift in Sources */,
+				F99A16B8267B719C00EE90EB /* UserDataService.swift in Sources */,
 				F986D2452679DB6500A4D259 /* UserFormViewController.swift in Sources */,
+				F9D53EF3267B2C2600966A8B /* GameViewController.swift in Sources */,
+				F99A16B3267B33A800EE90EB /* GameUnitCollectionViewCell.swift in Sources */,
+				F9D53EE8267A712400966A8B /* CustomLabel.swift in Sources */,
 				F9D53EE1267A06F100966A8B /* CustomSolidButton.swift in Sources */,
 				F986D2552679DD1B00A4D259 /* InfoViewController.swift in Sources */,
 				F9D53EE3267A070C00966A8B /* CustomTextFields.swift in Sources */,
+				F9D53EEC267A935C00966A8B /* UserData.swift in Sources */,
 				F9D53EDE267A069A00966A8B /* KeyboardViewController.swift in Sources */,
 				F986D22C2679DAA600A4D259 /* AppDelegate.swift in Sources */,
 				F9D53ED6267A013900966A8B /* UIFont+Extensions.swift in Sources */,
@@ -572,6 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489JK8PZ4S;
 				INFOPLIST_FILE = InfectionSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -591,6 +616,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489JK8PZ4S;
 				INFOPLIST_FILE = InfectionSimulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

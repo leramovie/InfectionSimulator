@@ -1,9 +1,14 @@
-/* 
-  Localizable.strings
-  InfectionSimulator
+"appInfo" = "iOS-app simulates and visualizes spread of infection in a group of people.";
+"game" = "Game";
+"groupSizeTitle" = "People count in simulating group";
+"groupSizePlaceholder" = "100 for example";
+"infectionFactorTitle" = "How much can be infected when contact";
+"infectionFactorPlaceholder" = "3 for example";
+"info" = "info";
+"periodTitle" = "Recalculation period of the number of infected people";
+"periodPlaceholder" = "1 (second) for example,";
+"simulate" = "Run simulating";
+"userFormNavTitle" = "User form";
+"userFormHint" = "Fill in these 3 required fields";
 
-  Created by Valery Shel on 16.06.2021.
-  
-*/
 
-"Welcome" = "Welcome";

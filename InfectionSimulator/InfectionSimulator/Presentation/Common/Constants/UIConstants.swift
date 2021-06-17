@@ -20,11 +20,11 @@ extension Constants.Buttons {
 }
 
 extension Constants.TextFields {
-    static let textFieldHeight = 48
     static let textFiedlLeftPadding: CGFloat = 16
 }
 
 extension Constants.Constraints {
     static let defaultConstraint: CGFloat = 16
+    static let marginsInsets: CGFloat = 8
 
 }

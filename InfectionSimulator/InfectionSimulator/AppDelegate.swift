@@ -18,12 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         
         let navController = NavigationController(rootViewController: UserFormViewController(nibName: nil, bundle: nil))
-
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = navController
         window.makeKeyAndVisible()
         self.window = window
-
+        
         return true
     }
 }
